@@ -1,0 +1,6 @@
+{
+    "hpPerLevelMultiplier": 0.05,
+    "atkPerLevelMultiplier": 0.05,
+    "defPerLevelMultiplier": 0.05,
+    "deathCooldown": "5m"
+}

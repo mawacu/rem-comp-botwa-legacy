@@ -1,0 +1,438 @@
+[
+    {
+        "floor": 1,
+        "name": "City Hall",
+        "description": "Kota awal yang terletak di awal perjalananmu. Kota ini memiliki banyak fasilitas yang dapat kamu gunakan untuk mempersiapkan diri sebelum memasuki dunia luar.",
+        "image": "1.jpg",
+        "isCity": true,
+        "zone": [
+            {
+                "zone": 1,
+                "name": "Center City",
+                "alt_name": "Pusat Kota",
+                "isSafe": true,
+                "isMonster": false,
+                "allowed_feature": []
+            },
+            {
+                "zone": 2,
+                "name": "Eizen",
+                "alt_name": "Zona Pasar",
+                "isSafe": true,
+                "isMonster": false,
+                "allowed_feature": ["shop", "duel"],
+                "shop_item": [
+                    {
+                        "id": "potion_hp_common_1",
+                        "name": "Ramuan Kesehatan",
+                        "type": "potion",
+                        "rarity": "common",
+                        "isCanStack": true,
+                        "price": 10,
+                        "attr": {
+                            "hp": 50
+                        }
+                    },
+                    {
+                        "id": "potion_atk_common_1",
+                        "name": "Obat Kuat dan Tahan Lama",
+                        "type": "potion",
+                        "rarity": "common",
+                        "isCanStack": true,
+                        "price": 10,
+                        "attr": {
+                            "atk": 5,
+                            "duration": "1m"
+                        }
+                    }
+                ]
+            },
+            {
+                "zone": 3,
+                "name": "Indsk",
+                "alt_name": "Zona Industri",
+                "isSafe": false,
+                "isMonster": false,
+                "allowed_feature": ["craft", "forge", "duel"]
+            }
+        ]
+    },
+    {
+        "floor": 2,
+        "name": "Spectral Glade",
+        "image": "2.jpg",
+        "isCity": false,
+        "zone": [
+            {
+                "zone": 1,
+                "name": "Hall of Fame",
+                "isSafe": false,
+                "isMonster": true,
+                "isMonsterAttackSimultaneously": false,
+                "monster_list": [
+                    {
+                        "id": "monster_fl2_zn1_0",
+                        "name": "Slime",
+                        "level": 1,
+                        "hp": { "value": 25, "max": 25 },
+                        "atk": 197420,
+                        "def": 1,
+                        "penetration": 0,
+                        "life_steal": 0,
+                        "dodge": 0,
+                        "crit": 0,
+                        "critDmg": 0,
+                        "drop_item": [
+                            {
+                                "id": "xp",
+                                "name": "XP",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [10, 20]
+                            },
+                            {
+                                "id": "money",
+                                "name": "Money",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [10, 20]
+                            },
+                            {
+                                "id": "weapon_common_1",
+                                "name": "Pedang Kayu",
+                                "type": "weapon",
+                                "rarity": "common",
+                                "isCanStack": false,
+                                "chance": 10,
+                                "value": [1, 1],
+                                "attr": {
+                                    "level": 1,
+                                    "atk": 2,
+                                    "crit": 0,
+                                    "crit_dmg": 0,
+                                    "penetration": 0,
+                                    "life_steal": 0
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "allowed_feature": ["farm", "duel", "kill"]
+            },
+            {
+                "zone": 2,
+                "name": "Spectral Glade",
+                "isSafe": false,
+                "isMonster": true,
+                "isMonsterAttackSimultaneously": true,
+                "monster_list": [
+                    {
+                        "id": "monster_fl2_zn2_0",
+                        "name": "Ardha",
+                        "level": 99,
+                        "hp": { "value": 999, "max": 999 },
+                        "atk": 0,
+                        "def": 1,
+                        "penetration": 0,
+                        "life_steal": 0,
+                        "dodge": 0,
+                        "crit": 0,
+                        "critDmg": 0,
+                        "drop_item": [
+                            {
+                                "id": "xp",
+                                "name": "XP",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [1000000, 2000000]
+                            },
+                            {
+                                "id": "money",
+                                "name": "Money",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [1000000, 2000000]
+                            },
+                            {
+                                "id": "weapon_bawadehewak",
+                                "name": "Pedang Bawadehewak",
+                                "type": "weapon",
+                                "rarity": "legendary",
+                                "isCanStack": false,
+                                "chance": 100,
+                                "value": [1, 1],
+                                "attr": {
+                                    "level": 999,
+                                    "atk": 999,
+                                    "crit": 100,
+                                    "crit_dmg": 999,
+                                    "penetration": 999,
+                                    "life_steal": 999
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "monster_fl2_zn2_1",
+                        "name": "AlamakkkkWoy",
+                        "level": 99,
+                        "hp": { "value": 999, "max": 999 },
+                        "atk": 0,
+                        "def": 1,
+                        "penetration": 0,
+                        "life_steal": 0,
+                        "dodge": 0,
+                        "crit": 0,
+                        "critDmg": 0,
+                        "drop_item": [
+                            {
+                                "id": "xp",
+                                "name": "XP",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [1000000, 2000000]
+                            },
+                            {
+                                "id": "money",
+                                "name": "Money",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [1000000, 2000000]
+                            },
+                            {
+                                "id": "weapon_bawadehewak",
+                                "name": "Pedang Bawadehewak",
+                                "type": "weapon",
+                                "rarity": "legendary",
+                                "isCanStack": false,
+                                "chance": 100,
+                                "value": [1, 1],
+                                "attr": {
+                                    "level": 999,
+                                    "atk": 999,
+                                    "crit": 100,
+                                    "crit_dmg": 999,
+                                    "penetration": 999,
+                                    "life_steal": 999
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "allowed_feature": ["farm", "duel", "kill"]
+            }
+        ],
+        "floor_boss": {
+            "id": "boss_fl2",
+            "name": "Rafid",
+            "level": 99999999,
+            "hp": { "value": 9999999, "max": 9999999 },
+            "atk": 99999,
+            "def": 99999,
+            "penetration": 8,
+            "life_steal": 3,
+            "dodge": 3,
+            "crit": 100,
+            "critDmg": 99999,
+            "drop_item": [
+                {
+                    "id": "xp",
+                    "name": "XP",
+                    "type": "economy",
+                    "chance": 100,
+                    "value": [99999999999999999999, 99999999999999999999]
+                },
+                {
+                    "id": "money",
+                    "name": "Money",
+                    "type": "economy",
+                    "chance": 100,
+                    "value": [99999999999999999999, 99999999999999999999]
+                },
+                {
+                    "id": "weapon_ambatukam",
+                    "name": "Pedang Ambatukam",
+                    "type": "weapon",
+                    "rarity": "legendary",
+                    "isCanStack": false,
+                    "chance": 100,
+                    "value": [1, 1],
+                    "attr": {
+                        "level": 99999999999999999999,
+                        "atk": 99999999999999999999,
+                        "crit": 99999999999999999999,
+                        "crit_dmg": 99999999999999999999,
+                        "penetration": 99999999999999999999,
+                        "life_steal": 99999999999999999999
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "floor": 3,
+        "name": "Ntah lah Cik",
+        "image": "3.jpg",
+        "isCity": false,
+        "zone": [
+            {
+                "zone": 1,
+                "name": "Ngawi",
+                "isSafe": false,
+                "isMonster": true,
+                "isMonsterAttackSimultaneously": false,
+                "monster_list": [
+                    {
+                        "id": "monster_fl3_zn1_0",
+                        "name": "Rusdi",
+                        "level": 9999,
+                        "hp": { "value": 9999999, "max": 9999999 },
+                        "atk": 99999,
+                        "def": 99999,
+                        "penetration": 90,
+                        "life_steal": 67,
+                        "dodge": 21,
+                        "crit": 99999,
+                        "critDmg": 99999,
+                        "drop_item": [
+                            {
+                                "id": "xp",
+                                "name": "XP",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [99999, 99999]
+                            },
+                            {
+                                "id": "money",
+                                "name": "Money",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [99999, 99999]
+                            },
+                            {
+                                "id": "weapon_common_1",
+                                "name": "Pedang Kayu",
+                                "type": "weapon",
+                                "rarity": "common",
+                                "isCanStack": false,
+                                "chance": 10,
+                                "value": [1, 1],
+                                "attr": {
+                                    "level": 1,
+                                    "atk": 2,
+                                    "crit": 0,
+                                    "crit_dmg": 0,
+                                    "penetration": 0,
+                                    "life_steal": 0
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "monster_fl3_zn1_1",
+                        "name": "Amba",
+                        "level": 9999,
+                        "hp": { "value": 9999999, "max": 9999999 },
+                        "atk": 99999,
+                        "def": 99999,
+                        "penetration": 90,
+                        "life_steal": 67,
+                        "dodge": 21,
+                        "crit": 99999,
+                        "critDmg": 99999,
+                        "drop_item": [
+                            {
+                                "id": "xp",
+                                "name": "XP",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [99999, 99999]
+                            },
+                            {
+                                "id": "money",
+                                "name": "Money",
+                                "type": "economy",
+                                "dbPushType": "add",
+                                "chance": 100,
+                                "value": [99999, 99999]
+                            },
+                            {
+                                "id": "weapon_common_1",
+                                "name": "Pedang Kayu",
+                                "type": "weapon",
+                                "rarity": "common",
+                                "isCanStack": false,
+                                "chance": 10,
+                                "value": [1, 1],
+                                "attr": {
+                                    "level": 1,
+                                    "atk": 2,
+                                    "crit": 0,
+                                    "crit_dmg": 0,
+                                    "penetration": 0,
+                                    "life_steal": 0
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "allowed_feature": ["farm", "duel", "kill"]
+            }
+        ],
+        "floor_boss": {
+            "id": "boss_fl3",
+            "name": "Hii jomoknye",
+            "level": 9999999999999999999999,
+            "hp": { "value": 99999999999999999999, "max": 99999999999999999999 },
+            "atk": 99999999999999999,
+            "def": 999999999999999999,
+            "penetration": 100,
+            "life_steal": 100,
+            "dodge": 100,
+            "crit": 100,
+            "critDmg": 99999999999999999,
+            "drop_item": [
+                {
+                    "id": "xp",
+                    "name": "XP",
+                    "type": "economy",
+                    "chance": 100,
+                    "value": [99999999999999999999, 99999999999999999999]
+                },
+                {
+                    "id": "money",
+                    "name": "Money",
+                    "type": "economy",
+                    "chance": 100,
+                    "value": [99999999999999999999, 99999999999999999999]
+                },
+                {
+                    "id": "weapon_wutdehel",
+                    "name": "Pedang Wutdehel",
+                    "type": "weapon",
+                    "rarity": "legendary",
+                    "isCanStack": false,
+                    "chance": 100,
+                    "value": [1, 1],
+                    "attr": {
+                        "level": 99999999999999999999,
+                        "atk": 99999999999999999999,
+                        "crit": 99999999999999999999,
+                        "crit_dmg": 99999999999999999999,
+                        "penetration": 99999999999999999999,
+                        "life_steal": 99999999999999999999
+                    }
+                }
+            ]
+        }
+    }
+]

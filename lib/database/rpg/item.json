@@ -1,0 +1,14 @@
+[
+    {
+        "id": "xp",
+        "name": "XP",
+        "type": "economy",
+        "rarity": "common"
+    },
+    {
+        "id": "money",
+        "name": "Money",
+        "type": "economy",
+        "rarity": "common"
+    }
+]

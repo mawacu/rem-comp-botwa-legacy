@@ -1,0 +1,37 @@
+[
+    {
+        "drop_item": [
+            {
+                "id": "sword_999999",
+                "name": "Legendary Sword",
+                "type": "weapon",
+                "rarity": "legendary",
+                "chance": 0.0000000000000000000001,
+                "value": [1, 1],
+                "attr": {
+                    "level": 999999,
+                    "atk": 999999,
+                    "crit": 999999,
+                    "crit_dmg": 999999,
+                    "penetration": 999999,
+                    "life_steal": 999999
+                }
+            },
+            {
+                "id": "armor_999999",
+                "name": "Legendary Armor",
+                "type": "armor",
+                "rarity": "legendary",
+                "chance": 0.0000000000000000000001,
+                "value": [1, 1],
+                "attr": {
+                    "level": 999999,
+                    "def": 999999,
+                    "hp": 999999,
+                    "resistance": 999999
+                }
+            }
+        ]
+    }
+
+]

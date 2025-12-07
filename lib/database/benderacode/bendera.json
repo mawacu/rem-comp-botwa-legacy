@@ -1,0 +1,1272 @@
+[
+  {
+    "image": "./media/img/benderapng/af.png",
+    "title": "Afghanistan",
+    "clue": "`_fgh_n_st_n`"
+  },
+  {
+    "image": "./media/img/benderapng/ax.png",
+    "title": "Åland Islands",
+    "clue": "`Ål_nd _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/al.png",
+    "title": "Albania",
+    "clue": "`_lb_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/dz.png",
+    "title": "Algeria",
+    "clue": "`_lg_r__`"
+  },
+  {
+    "image": "./media/img/benderapng/as.png",
+    "title": "American Samoa",
+    "clue": "`_m_r_c_n S_m__`"
+  },
+  {
+    "image": "./media/img/benderapng/ad.png",
+    "title": "Andorra",
+    "clue": "`_nd_rr_`"
+  },
+  {
+    "image": "./media/img/benderapng/ao.png",
+    "title": "Angola",
+    "clue": "`_ng_l_`"
+  },
+  {
+    "image": "./media/img/benderapng/ai.png",
+    "title": "Anguilla",
+    "clue": "`_ng__ll_`"
+  },
+  {
+    "image": "./media/img/benderapng/aq.png",
+    "title": "Antarctica",
+    "clue": "`_nt_rct_c_`"
+  },
+  {
+    "image": "./media/img/benderapng/ag.png",
+    "title": "Antigua and Barbuda",
+    "clue": "`_nt_g__ _nd B_rb_d_`"
+  },
+  {
+    "image": "./media/img/benderapng/ar.png",
+    "title": "Argentina",
+    "clue": "`_rg_nt_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/am.png",
+    "title": "Armenia",
+    "clue": "`_rm_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/aw.png",
+    "title": "Aruba",
+    "clue": "`_r_b_`"
+  },
+  {
+    "image": "./media/img/benderapng/au.png",
+    "title": "Australia",
+    "clue": "`__str_l__`"
+  },
+  {
+    "image": "./media/img/benderapng/at.png",
+    "title": "Austria",
+    "clue": "`__str__`"
+  },
+  {
+    "image": "./media/img/benderapng/az.png",
+    "title": "Azerbaijan",
+    "clue": "`_z_rb__j_n`"
+  },
+  {
+    "image": "./media/img/benderapng/bs.png",
+    "title": "Bahamas",
+    "clue": "`B_h_m_s`"
+  },
+  {
+    "image": "./media/img/benderapng/bh.png",
+    "title": "Bahrain",
+    "clue": "`B_hr__n`"
+  },
+  {
+    "image": "./media/img/benderapng/bd.png",
+    "title": "Bangladesh",
+    "clue": "`B_ngl_d_sh`"
+  },
+  {
+    "image": "./media/img/benderapng/bb.png",
+    "title": "Barbados",
+    "clue": "`B_rb_d_s`"
+  },
+  {
+    "image": "./media/img/benderapng/by.png",
+    "title": "Belarus",
+    "clue": "`B_l_r_s`"
+  },
+  {
+    "image": "./media/img/benderapng/be.png",
+    "title": "Belgium",
+    "clue": "`B_lg__m`"
+  },
+  {
+    "image": "./media/img/benderapng/bz.png",
+    "title": "Belize",
+    "clue": "`B_l_z_`"
+  },
+  {
+    "image": "./media/img/benderapng/bj.png",
+    "title": "Benin",
+    "clue": "`B_n_n`"
+  },
+  {
+    "image": "./media/img/benderapng/bm.png",
+    "title": "Bermuda",
+    "clue": "`B_rm_d_`"
+  },
+  {
+    "image": "./media/img/benderapng/bt.png",
+    "title": "Bhutan",
+    "clue": "`Bh_t_n`"
+  },
+  {
+    "image": "./media/img/benderapng/bo.png",
+    "title": "Bolivia",
+    "clue": "`B_l_v__`"
+  },
+  {
+    "image": "./media/img/benderapng/ba.png",
+    "title": "Bosnia and Herzegovina",
+    "clue": "`B_sn__ _nd H_rz_g_v_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/bw.png",
+    "title": "Botswana",
+    "clue": "`B_tsw_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/bv.png",
+    "title": "Bouvet Island",
+    "clue": "`B__v_t _sl_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/br.png",
+    "title": "Brazil",
+    "clue": "`Br_z_l`"
+  },
+  {
+    "image": "./media/img/benderapng/io.png",
+    "title": "British Indian Ocean Territory",
+    "clue": "`Br_t_sh _nd__n _c__n T_rr_t_ry`"
+  },
+  {
+    "image": "./media/img/benderapng/bn.png",
+    "title": "Brunei",
+    "clue": "`Br_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/bg.png",
+    "title": "Bulgaria",
+    "clue": "`B_lg_r__`"
+  },
+  {
+    "image": "./media/img/benderapng/bf.png",
+    "title": "Burkina Faso",
+    "clue": "`B_rk_n_ F_s_`"
+  },
+  {
+    "image": "./media/img/benderapng/bi.png",
+    "title": "Burundi",
+    "clue": "`B_r_nd_`"
+  },
+  {
+    "image": "./media/img/benderapng/kh.png",
+    "title": "Cambodia",
+    "clue": "`C_mb_d__`"
+  },
+  {
+    "image": "./media/img/benderapng/cm.png",
+    "title": "Cameroon",
+    "clue": "`C_m_r__n`"
+  },
+  {
+    "image": "./media/img/benderapng/ca.png",
+    "title": "Canada",
+    "clue": "`C_n_d_`"
+  },
+  {
+    "image": "./media/img/benderapng/cv.png",
+    "title": "Cape Verde",
+    "clue": "`C_p_ V_rd_`"
+  },
+  {
+    "image": "./media/img/benderapng/bq.png",
+    "title": "Caribbean Netherlands",
+    "clue": "`C_r_bb__n N_th_rl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/ky.png",
+    "title": "Cayman Islands",
+    "clue": "`C_ym_n _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/cf.png",
+    "title": "Central African Republic",
+    "clue": "`C_ntr_l _fr_c_n R_p_bl_c`"
+  },
+  {
+    "image": "./media/img/benderapng/td.png",
+    "title": "Chad",
+    "clue": "`Ch_d`"
+  },
+  {
+    "image": "./media/img/benderapng/cl.png",
+    "title": "Chile",
+    "clue": "`Ch_l_`"
+  },
+  {
+    "image": "./media/img/benderapng/cn.png",
+    "title": "China",
+    "clue": "`Ch_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/cx.png",
+    "title": "Christmas Island",
+    "clue": "`Chr_stm_s _sl_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/cc.png",
+    "title": "Cocos Islands",
+    "clue": "`C_c_s _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/co.png",
+    "title": "Colombia",
+    "clue": "`C_l_mb__`"
+  },
+  {
+    "image": "./media/img/benderapng/km.png",
+    "title": "Comoros",
+    "clue": "`C_m_r_s`"
+  },
+  {
+    "image": "./media/img/benderapng/cg.png",
+    "title": "Republic of the Congo",
+    "clue": "`R_p_bl_c _f th_ C_ng_`"
+  },
+  {
+    "image": "./media/img/benderapng/cd.png",
+    "title": "DR Congo",
+    "clue": "`DR C_ng_`"
+  },
+  {
+    "image": "./media/img/benderapng/ck.png",
+    "title": "Cook Islands",
+    "clue": "`C__k _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/cr.png",
+    "title": "Costa Rica",
+    "clue": "`C_st_ R_c_`"
+  },
+  {
+    "image": "./media/img/benderapng/ci.png",
+    "title": "Côte d'Ivoire",
+    "clue": "`Côt_ d'_v__r_`"
+  },
+  {
+    "image": "./media/img/benderapng/hr.png",
+    "title": "Croatia",
+    "clue": "`Cr__t__`"
+  },
+  {
+    "image": "./media/img/benderapng/cu.png",
+    "title": "Cuba",
+    "clue": "`C_b_`"
+  },
+  {
+    "image": "./media/img/benderapng/cw.png",
+    "title": "Curaçao",
+    "clue": "`C_r_ç__`"
+  },
+  {
+    "image": "./media/img/benderapng/cy.png",
+    "title": "Cyprus",
+    "clue": "`Cypr_s`"
+  },
+  {
+    "image": "./media/img/benderapng/cz.png",
+    "title": "Czechia",
+    "clue": "`Cz_ch__`"
+  },
+  {
+    "image": "./media/img/benderapng/dk.png",
+    "title": "Denmark",
+    "clue": "`D_nm_rk`"
+  },
+  {
+    "image": "./media/img/benderapng/dj.png",
+    "title": "Djibouti",
+    "clue": "`Dj_b__t_`"
+  },
+  {
+    "image": "./media/img/benderapng/dm.png",
+    "title": "Dominica",
+    "clue": "`D_m_n_c_`"
+  },
+  {
+    "image": "./media/img/benderapng/do.png",
+    "title": "Dominican Republic",
+    "clue": "`D_m_n_c_n R_p_bl_c`"
+  },
+  {
+    "image": "./media/img/benderapng/ec.png",
+    "title": "Ecuador",
+    "clue": "`_c__d_r`"
+  },
+  {
+    "image": "./media/img/benderapng/eg.png",
+    "title": "Egypt",
+    "clue": "`_gypt`"
+  },
+  {
+    "image": "./media/img/benderapng/sv.png",
+    "title": "El Salvador",
+    "clue": "`_l S_lv_d_r`"
+  },
+  {
+    "image": "./media/img/benderapng/gb-eng.png",
+    "title": "England",
+    "clue": "`_ngl_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/gq.png",
+    "title": "Equatorial Guinea",
+    "clue": "`_q__t_r__l G__n__`"
+  },
+  {
+    "image": "./media/img/benderapng/er.png",
+    "title": "Eritrea",
+    "clue": "`_r_tr__`"
+  },
+  {
+    "image": "./media/img/benderapng/ee.png",
+    "title": "Estonia",
+    "clue": "`_st_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/sz.png",
+    "title": "Eswatini",
+    "clue": "`_sw_t_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/et.png",
+    "title": "Ethiopia",
+    "clue": "`_th__p__`"
+  },
+  {
+    "image": "./media/img/benderapng/fk.png",
+    "title": "Falkland Islands",
+    "clue": "`F_lkl_nd _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/fo.png",
+    "title": "Faroe Islands",
+    "clue": "`F_r__ _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/fj.png",
+    "title": "Fiji",
+    "clue": "`F_j_`"
+  },
+  {
+    "image": "./media/img/benderapng/fi.png",
+    "title": "Finland",
+    "clue": "`F_nl_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/fr.png",
+    "title": "France",
+    "clue": "`Fr_nc_`"
+  },
+  {
+    "image": "./media/img/benderapng/gf.png",
+    "title": "French Guiana",
+    "clue": "`Fr_nch G___n_`"
+  },
+  {
+    "image": "./media/img/benderapng/pf.png",
+    "title": "French Polynesia",
+    "clue": "`Fr_nch P_lyn_s__`"
+  },
+  {
+    "image": "./media/img/benderapng/tf.png",
+    "title": "French Southern and Antarctic Lands",
+    "clue": "`Fr_nch S__th_rn _nd _nt_rct_c L_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/ga.png",
+    "title": "Gabon",
+    "clue": "`G_b_n`"
+  },
+  {
+    "image": "./media/img/benderapng/gm.png",
+    "title": "Gambia",
+    "clue": "`G_mb__`"
+  },
+  {
+    "image": "./media/img/benderapng/ge.png",
+    "title": "Georgia",
+    "clue": "`G__rg__`"
+  },
+  {
+    "image": "./media/img/benderapng/de.png",
+    "title": "Germany",
+    "clue": "`G_rm_ny`"
+  },
+  {
+    "image": "./media/img/benderapng/gh.png",
+    "title": "Ghana",
+    "clue": "`Gh_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/gi.png",
+    "title": "Gibraltar",
+    "clue": "`G_br_lt_r`"
+  },
+  {
+    "image": "./media/img/benderapng/gr.png",
+    "title": "Greece",
+    "clue": "`Gr__c_`"
+  },
+  {
+    "image": "./media/img/benderapng/gl.png",
+    "title": "Greenland",
+    "clue": "`Gr__nl_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/gd.png",
+    "title": "Grenada",
+    "clue": "`Gr_n_d_`"
+  },
+  {
+    "image": "./media/img/benderapng/gp.png",
+    "title": "Guadeloupe",
+    "clue": "`G__d_l__p_`"
+  },
+  {
+    "image": "./media/img/benderapng/gu.png",
+    "title": "Guam",
+    "clue": "`G__m`"
+  },
+  {
+    "image": "./media/img/benderapng/gt.png",
+    "title": "Guatemala",
+    "clue": "`G__t_m_l_`"
+  },
+  {
+    "image": "./media/img/benderapng/gg.png",
+    "title": "Guernsey",
+    "clue": "`G__rns_y`"
+  },
+  {
+    "image": "./media/img/benderapng/gn.png",
+    "title": "Guinea",
+    "clue": "`G__n__`"
+  },
+  {
+    "image": "./media/img/benderapng/gw.png",
+    "title": "Guinea-Bissau",
+    "clue": "`G__n__-B_ss__`"
+  },
+  {
+    "image": "./media/img/benderapng/gy.png",
+    "title": "Guyana",
+    "clue": "`G_y_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/ht.png",
+    "title": "Haiti",
+    "clue": "`H__t_`"
+  },
+  {
+    "image": "./media/img/benderapng/hm.png",
+    "title": "Heard Island and McDonald Islands",
+    "clue": "`H__rd _sl_nd _nd McD_n_ld _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/hn.png",
+    "title": "Honduras",
+    "clue": "`H_nd_r_s`"
+  },
+  {
+    "image": "./media/img/benderapng/hk.png",
+    "title": "Hong Kong",
+    "clue": "`H_ng K_ng`"
+  },
+  {
+    "image": "./media/img/benderapng/hu.png",
+    "title": "Hungary",
+    "clue": "`H_ng_ry`"
+  },
+  {
+    "image": "./media/img/benderapng/is.png",
+    "title": "Iceland",
+    "clue": "`_c_l_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/in.png",
+    "title": "India",
+    "clue": "`_nd__`"
+  },
+  {
+    "image": "./media/img/benderapng/id.png",
+    "title": "Indonesia",
+    "clue": "`_nd_n_s__`"
+  },
+  {
+    "image": "./media/img/benderapng/ir.png",
+    "title": "Iran",
+    "clue": "`_r_n`"
+  },
+  {
+    "image": "./media/img/benderapng/iq.png",
+    "title": "Iraq",
+    "clue": "`_r_q`"
+  },
+  {
+    "image": "./media/img/benderapng/ie.png",
+    "title": "Ireland",
+    "clue": "`_r_l_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/im.png",
+    "title": "Isle of Man",
+    "clue": "`_sl_ _f M_n`"
+  },
+  {
+    "image": "./media/img/benderapng/il.png",
+    "title": "Israel",
+    "clue": "`_sr__l`"
+  },
+  {
+    "image": "./media/img/benderapng/it.png",
+    "title": "Italy",
+    "clue": "`_t_ly`"
+  },
+  {
+    "image": "./media/img/benderapng/jm.png",
+    "title": "Jamaica",
+    "clue": "`J_m__c_`"
+  },
+  {
+    "image": "./media/img/benderapng/jp.png",
+    "title": "Japan",
+    "clue": "`J_p_n`"
+  },
+  {
+    "image": "./media/img/benderapng/je.png",
+    "title": "Jersey",
+    "clue": "`J_rs_y`"
+  },
+  {
+    "image": "./media/img/benderapng/jo.png",
+    "title": "Jordan",
+    "clue": "`J_rd_n`"
+  },
+  {
+    "image": "./media/img/benderapng/kz.png",
+    "title": "Kazakhstan",
+    "clue": "`K_z_khst_n`"
+  },
+  {
+    "image": "./media/img/benderapng/ke.png",
+    "title": "Kenya",
+    "clue": "`K_ny_`"
+  },
+  {
+    "image": "./media/img/benderapng/ki.png",
+    "title": "Kiribati",
+    "clue": "`K_r_b_t_`"
+  },
+  {
+    "image": "./media/img/benderapng/kp.png",
+    "title": "North Korea",
+    "clue": "`N_rth K_r__`"
+  },
+  {
+    "image": "./media/img/benderapng/kr.png",
+    "title": "South Korea",
+    "clue": "`S__th K_r__`"
+  },
+  {
+    "image": "./media/img/benderapng/xk.png",
+    "title": "Kosovo",
+    "clue": "`K_s_v_`"
+  },
+  {
+    "image": "./media/img/benderapng/kw.png",
+    "title": "Kuwait",
+    "clue": "`K_w__t`"
+  },
+  {
+    "image": "./media/img/benderapng/kg.png",
+    "title": "Kyrgyzstan",
+    "clue": "`Kyrgyzst_n`"
+  },
+  {
+    "image": "./media/img/benderapng/la.png",
+    "title": "Laos",
+    "clue": "`L__s`"
+  },
+  {
+    "image": "./media/img/benderapng/lv.png",
+    "title": "Latvia",
+    "clue": "`L_tv__`"
+  },
+  {
+    "image": "./media/img/benderapng/lb.png",
+    "title": "Lebanon",
+    "clue": "`L_b_n_n`"
+  },
+  {
+    "image": "./media/img/benderapng/ls.png",
+    "title": "Lesotho",
+    "clue": "`L_s_th_`"
+  },
+  {
+    "image": "./media/img/benderapng/lr.png",
+    "title": "Liberia",
+    "clue": "`L_b_r__`"
+  },
+  {
+    "image": "./media/img/benderapng/ly.png",
+    "title": "Libya",
+    "clue": "`L_by_`"
+  },
+  {
+    "image": "./media/img/benderapng/li.png",
+    "title": "Liechtenstein",
+    "clue": "`L__cht_nst__n`"
+  },
+  {
+    "image": "./media/img/benderapng/lt.png",
+    "title": "Lithuania",
+    "clue": "`L_th__n__`"
+  },
+  {
+    "image": "./media/img/benderapng/lu.png",
+    "title": "Luxembourg",
+    "clue": "`L_x_mb__rg`"
+  },
+  {
+    "image": "./media/img/benderapng/mo.png",
+    "title": "Macau",
+    "clue": "`M_c__`"
+  },
+  {
+    "image": "./media/img/benderapng/mg.png",
+    "title": "Madagascar",
+    "clue": "`M_d_g_sc_r`"
+  },
+  {
+    "image": "./media/img/benderapng/mw.png",
+    "title": "Malawi",
+    "clue": "`M_l_w_`"
+  },
+  {
+    "image": "./media/img/benderapng/my.png",
+    "title": "Malaysia",
+    "clue": "`M_l_ys__`"
+  },
+  {
+    "image": "./media/img/benderapng/mv.png",
+    "title": "Maldives",
+    "clue": "`M_ld_v_s`"
+  },
+  {
+    "image": "./media/img/benderapng/ml.png",
+    "title": "Mali",
+    "clue": "`M_l_`"
+  },
+  {
+    "image": "./media/img/benderapng/mt.png",
+    "title": "Malta",
+    "clue": "`M_lt_`"
+  },
+  {
+    "image": "./media/img/benderapng/mh.png",
+    "title": "Marshall Islands",
+    "clue": "`M_rsh_ll _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/mq.png",
+    "title": "Martinique",
+    "clue": "`M_rt_n_q__`"
+  },
+  {
+    "image": "./media/img/benderapng/mr.png",
+    "title": "Mauritania",
+    "clue": "`M__r_t_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/mu.png",
+    "title": "Mauritius",
+    "clue": "`M__r_t__s`"
+  },
+  {
+    "image": "./media/img/benderapng/yt.png",
+    "title": "Mayotte",
+    "clue": "`M_y_tt_`"
+  },
+  {
+    "image": "./media/img/benderapng/mx.png",
+    "title": "Mexico",
+    "clue": "`M_x_c_`"
+  },
+  {
+    "image": "./media/img/benderapng/fm.png",
+    "title": "Micronesia",
+    "clue": "`M_cr_n_s__`"
+  },
+  {
+    "image": "./media/img/benderapng/md.png",
+    "title": "Moldova",
+    "clue": "`M_ld_v_`"
+  },
+  {
+    "image": "./media/img/benderapng/mc.png",
+    "title": "Monaco",
+    "clue": "`M_n_c_`"
+  },
+  {
+    "image": "./media/img/benderapng/mn.png",
+    "title": "Mongolia",
+    "clue": "`M_ng_l__`"
+  },
+  {
+    "image": "./media/img/benderapng/me.png",
+    "title": "Montenegro",
+    "clue": "`M_nt_n_gr_`"
+  },
+  {
+    "image": "./media/img/benderapng/ms.png",
+    "title": "Montserrat",
+    "clue": "`M_nts_rr_t`"
+  },
+  {
+    "image": "./media/img/benderapng/ma.png",
+    "title": "Morocco",
+    "clue": "`M_r_cc_`"
+  },
+  {
+    "image": "./media/img/benderapng/mz.png",
+    "title": "Mozambique",
+    "clue": "`M_z_mb_q__`"
+  },
+  {
+    "image": "./media/img/benderapng/mm.png",
+    "title": "Myanmar",
+    "clue": "`My_nm_r`"
+  },
+  {
+    "image": "./media/img/benderapng/na.png",
+    "title": "Namibia",
+    "clue": "`N_m_b__`"
+  },
+  {
+    "image": "./media/img/benderapng/nr.png",
+    "title": "Nauru",
+    "clue": "`N__r_`"
+  },
+  {
+    "image": "./media/img/benderapng/np.png",
+    "title": "Nepal",
+    "clue": "`N_p_l`"
+  },
+  {
+    "image": "./media/img/benderapng/nl.png",
+    "title": "Netherlands",
+    "clue": "`N_th_rl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/nc.png",
+    "title": "New Caledonia",
+    "clue": "`N_w C_l_d_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/nz.png",
+    "title": "New Zealand",
+    "clue": "`N_w Z__l_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/ni.png",
+    "title": "Nicaragua",
+    "clue": "`N_c_r_g__`"
+  },
+  {
+    "image": "./media/img/benderapng/ne.png",
+    "title": "Niger",
+    "clue": "`N_g_r`"
+  },
+  {
+    "image": "./media/img/benderapng/ng.png",
+    "title": "Nigeria",
+    "clue": "`N_g_r__`"
+  },
+  {
+    "image": "./media/img/benderapng/nu.png",
+    "title": "Niue",
+    "clue": "`N___`"
+  },
+  {
+    "image": "./media/img/benderapng/nf.png",
+    "title": "Norfolk Island",
+    "clue": "`N_rf_lk _sl_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/mk.png",
+    "title": "North Macedonia",
+    "clue": "`N_rth M_c_d_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/gb-nir.png",
+    "title": "Northern Ireland",
+    "clue": "`N_rth_rn _r_l_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/mp.png",
+    "title": "Northern Mariana Islands",
+    "clue": "`N_rth_rn M_r__n_ _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/no.png",
+    "title": "Norway",
+    "clue": "`N_rw_y`"
+  },
+  {
+    "image": "./media/img/benderapng/om.png",
+    "title": "Oman",
+    "clue": "`_m_n`"
+  },
+  {
+    "image": "./media/img/benderapng/pk.png",
+    "title": "Pakistan",
+    "clue": "`P_k_st_n`"
+  },
+  {
+    "image": "./media/img/benderapng/pw.png",
+    "title": "Palau",
+    "clue": "`P_l__`"
+  },
+  {
+    "image": "./media/img/benderapng/ps.png",
+    "title": "Palestine",
+    "clue": "`P_l_st_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/pa.png",
+    "title": "Panama",
+    "clue": "`P_n_m_`"
+  },
+  {
+    "image": "./media/img/benderapng/pg.png",
+    "title": "Papua New Guinea",
+    "clue": "`P_p__ N_w G__n__`"
+  },
+  {
+    "image": "./media/img/benderapng/py.png",
+    "title": "Paraguay",
+    "clue": "`P_r_g__y`"
+  },
+  {
+    "image": "./media/img/benderapng/pe.png",
+    "title": "Peru",
+    "clue": "`P_r_`"
+  },
+  {
+    "image": "./media/img/benderapng/ph.png",
+    "title": "Philippines",
+    "clue": "`Ph_l_pp_n_s`"
+  },
+  {
+    "image": "./media/img/benderapng/pn.png",
+    "title": "Pitcairn Islands",
+    "clue": "`P_tc__rn _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/pl.png",
+    "title": "Poland",
+    "clue": "`P_l_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/pt.png",
+    "title": "Portugal",
+    "clue": "`P_rt_g_l`"
+  },
+  {
+    "image": "./media/img/benderapng/pr.png",
+    "title": "Puerto Rico",
+    "clue": "`P__rt_ R_c_`"
+  },
+  {
+    "image": "./media/img/benderapng/qa.png",
+    "title": "Qatar",
+    "clue": "`Q_t_r`"
+  },
+  {
+    "image": "./media/img/benderapng/re.png",
+    "title": "Réunion",
+    "clue": "`Ré_n__n`"
+  },
+  {
+    "image": "./media/img/benderapng/ro.png",
+    "title": "Romania",
+    "clue": "`R_m_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/ru.png",
+    "title": "Russia",
+    "clue": "`R_ss__`"
+  },
+  {
+    "image": "./media/img/benderapng/rw.png",
+    "title": "Rwanda",
+    "clue": "`Rw_nd_`"
+  },
+  {
+    "image": "./media/img/benderapng/bl.png",
+    "title": "Saint Barthélemy",
+    "clue": "`S__nt B_rthél_my`"
+  },
+  {
+    "image": "./media/img/benderapng/sh.png",
+    "title": "Saint Helena, Ascension and Tristan da Cunha",
+    "clue": "`S__nt H_l_n_, _sc_ns__n _nd Tr_st_n d_ C_nh_`"
+  },
+  {
+    "image": "./media/img/benderapng/kn.png",
+    "title": "Saint Kitts and Nevis",
+    "clue": "`S__nt K_tts _nd N_v_s`"
+  },
+  {
+    "image": "./media/img/benderapng/lc.png",
+    "title": "Saint Lucia",
+    "clue": "`S__nt L_c__`"
+  },
+  {
+    "image": "./media/img/benderapng/mf.png",
+    "title": "Saint Martin",
+    "clue": "`S__nt M_rt_n`"
+  },
+  {
+    "image": "./media/img/benderapng/pm.png",
+    "title": "Saint Pierre and Miquelon",
+    "clue": "`S__nt P__rr_ _nd M_q__l_n`"
+  },
+  {
+    "image": "./media/img/benderapng/vc.png",
+    "title": "Saint Vincent and the Grenadines",
+    "clue": "`S__nt V_nc_nt _nd th_ Gr_n_d_n_s`"
+  },
+  {
+    "image": "./media/img/benderapng/ws.png",
+    "title": "Samoa",
+    "clue": "`S_m__`"
+  },
+  {
+    "image": "./media/img/benderapng/sm.png",
+    "title": "San Marino",
+    "clue": "`S_n M_r_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/st.png",
+    "title": "São Tomé and Príncipe",
+    "clue": "`Sã_ T_mé _nd Prínc_p_`"
+  },
+  {
+    "image": "./media/img/benderapng/sa.png",
+    "title": "Saudi Arabia",
+    "clue": "`S__d_ _r_b__`"
+  },
+  {
+    "image": "./media/img/benderapng/gb-sct.png",
+    "title": "Scotland",
+    "clue": "`Sc_tl_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/sn.png",
+    "title": "Senegal",
+    "clue": "`S_n_g_l`"
+  },
+  {
+    "image": "./media/img/benderapng/rs.png",
+    "title": "Serbia",
+    "clue": "`S_rb__`"
+  },
+  {
+    "image": "./media/img/benderapng/sc.png",
+    "title": "Seychelles",
+    "clue": "`S_ych_ll_s`"
+  },
+  {
+    "image": "./media/img/benderapng/sl.png",
+    "title": "Sierra Leone",
+    "clue": "`S__rr_ L__n_`"
+  },
+  {
+    "image": "./media/img/benderapng/sg.png",
+    "title": "Singapore",
+    "clue": "`S_ng_p_r_`"
+  },
+  {
+    "image": "./media/img/benderapng/sx.png",
+    "title": "Sint Maarten",
+    "clue": "`S_nt M__rt_n`"
+  },
+  {
+    "image": "./media/img/benderapng/sk.png",
+    "title": "Slovakia",
+    "clue": "`Sl_v_k__`"
+  },
+  {
+    "image": "./media/img/benderapng/si.png",
+    "title": "Slovenia",
+    "clue": "`Sl_v_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/sb.png",
+    "title": "Solomon Islands",
+    "clue": "`S_l_m_n _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/so.png",
+    "title": "Somalia",
+    "clue": "`S_m_l__`"
+  },
+  {
+    "image": "./media/img/benderapng/za.png",
+    "title": "South Africa",
+    "clue": "`S__th _fr_c_`"
+  },
+  {
+    "image": "./media/img/benderapng/gs.png",
+    "title": "South Georgia",
+    "clue": "`S__th G__rg__`"
+  },
+  {
+    "image": "./media/img/benderapng/ss.png",
+    "title": "South Sudan",
+    "clue": "`S__th S_d_n`"
+  },
+  {
+    "image": "./media/img/benderapng/es.png",
+    "title": "Spain",
+    "clue": "`Sp__n`"
+  },
+  {
+    "image": "./media/img/benderapng/lk.png",
+    "title": "Sri Lanka",
+    "clue": "`Sr_ L_nk_`"
+  },
+  {
+    "image": "./media/img/benderapng/sd.png",
+    "title": "Sudan",
+    "clue": "`S_d_n`"
+  },
+  {
+    "image": "./media/img/benderapng/sr.png",
+    "title": "Suriname",
+    "clue": "`S_r_n_m_`"
+  },
+  {
+    "image": "./media/img/benderapng/sj.png",
+    "title": "Svalbard and Jan Mayen",
+    "clue": "`Sv_lb_rd _nd J_n M_y_n`"
+  },
+  {
+    "image": "./media/img/benderapng/se.png",
+    "title": "Sweden",
+    "clue": "`Sw_d_n`"
+  },
+  {
+    "image": "./media/img/benderapng/ch.png",
+    "title": "Switzerland",
+    "clue": "`Sw_tz_rl_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/sy.png",
+    "title": "Syria",
+    "clue": "`Syr__`"
+  },
+  {
+    "image": "./media/img/benderapng/tw.png",
+    "title": "Taiwan",
+    "clue": "`T__w_n`"
+  },
+  {
+    "image": "./media/img/benderapng/tj.png",
+    "title": "Tajikistan",
+    "clue": "`T_j_k_st_n`"
+  },
+  {
+    "image": "./media/img/benderapng/tz.png",
+    "title": "Tanzania",
+    "clue": "`T_nz_n__`"
+  },
+  {
+    "image": "./media/img/benderapng/th.png",
+    "title": "Thailand",
+    "clue": "`Th__l_nd`"
+  },
+  {
+    "image": "./media/img/benderapng/tl.png",
+    "title": "Timor-Leste",
+    "clue": "`T_m_r-L_st_`"
+  },
+  {
+    "image": "./media/img/benderapng/tg.png",
+    "title": "Togo",
+    "clue": "`T_g_`"
+  },
+  {
+    "image": "./media/img/benderapng/tk.png",
+    "title": "Tokelau",
+    "clue": "`T_k_l__`"
+  },
+  {
+    "image": "./media/img/benderapng/to.png",
+    "title": "Tonga",
+    "clue": "`T_ng_`"
+  },
+  {
+    "image": "./media/img/benderapng/tt.png",
+    "title": "Trinidad and Tobago",
+    "clue": "`Tr_n_d_d _nd T_b_g_`"
+  },
+  {
+    "image": "./media/img/benderapng/tn.png",
+    "title": "Tunisia",
+    "clue": "`T_n_s__`"
+  },
+  {
+    "image": "./media/img/benderapng/tr.png",
+    "title": "Turkey",
+    "clue": "`T_rk_y`"
+  },
+  {
+    "image": "./media/img/benderapng/tm.png",
+    "title": "Turkmenistan",
+    "clue": "`T_rkm_n_st_n`"
+  },
+  {
+    "image": "./media/img/benderapng/tc.png",
+    "title": "Turks and Caicos Islands",
+    "clue": "`T_rks _nd C__c_s _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/tv.png",
+    "title": "Tuvalu",
+    "clue": "`T_v_l_`"
+  },
+  {
+    "image": "./media/img/benderapng/ug.png",
+    "title": "Uganda",
+    "clue": "`_g_nd_`"
+  },
+  {
+    "image": "./media/img/benderapng/ua.png",
+    "title": "Ukraine",
+    "clue": "`_kr__n_`"
+  },
+  {
+    "image": "./media/img/benderapng/ae.png",
+    "title": "United Arab Emirates",
+    "clue": "`_n_t_d _r_b _m_r_t_s`"
+  },
+  {
+    "image": "./media/img/benderapng/gb.png",
+    "title": "United Kingdom",
+    "clue": "`_n_t_d K_ngd_m`"
+  },
+  {
+    "image": "./media/img/benderapng/us.png",
+    "title": "United States",
+    "clue": "`_n_t_d St_t_s`"
+  },
+  {
+    "image": "./media/img/benderapng/um.png",
+    "title": "United States Minor Outlying Islands",
+    "clue": "`_n_t_d St_t_s M_n_r __tly_ng _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/uy.png",
+    "title": "Uruguay",
+    "clue": "`_r_g__y`"
+  },
+  {
+    "image": "./media/img/benderapng/uz.png",
+    "title": "Uzbekistan",
+    "clue": "`_zb_k_st_n`"
+  },
+  {
+    "image": "./media/img/benderapng/vu.png",
+    "title": "Vanuatu",
+    "clue": "`V_n__t_`"
+  },
+  {
+    "image": "./media/img/benderapng/va.png",
+    "title": "Vatican City",
+    "clue": "`V_t_c_n C_ty`"
+  },
+  {
+    "image": "./media/img/benderapng/ve.png",
+    "title": "Venezuela",
+    "clue": "`V_n_z__l_`"
+  },
+  {
+    "image": "./media/img/benderapng/vn.png",
+    "title": "Vietnam",
+    "clue": "`V__tn_m`"
+  },
+  {
+    "image": "./media/img/benderapng/vg.png",
+    "title": "British Virgin Islands",
+    "clue": "`Br_t_sh V_rg_n _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/vi.png",
+    "title": "United States Virgin Islands",
+    "clue": "`_n_t_d St_t_s V_rg_n _sl_nds`"
+  },
+  {
+    "image": "./media/img/benderapng/gb-wls.png",
+    "title": "Wales",
+    "clue": "`W_l_s`"
+  },
+  {
+    "image": "./media/img/benderapng/wf.png",
+    "title": "Wallis and Futuna",
+    "clue": "`W_ll_s _nd F_t_n_`"
+  },
+  {
+    "image": "./media/img/benderapng/eh.png",
+    "title": "Western Sahara",
+    "clue": "`W_st_rn S_h_r_`"
+  },
+  {
+    "image": "./media/img/benderapng/ye.png",
+    "title": "Yemen",
+    "clue": "`Y_m_n`"
+  },
+  {
+    "image": "./media/img/benderapng/zm.png",
+    "title": "Zambia",
+    "clue": "`Z_mb__`"
+  },
+  {
+    "image": "./media/img/benderapng/zw.png",
+    "title": "Zimbabwe",
+    "clue": "`Z_mb_bw_`"
+  }
+]
