@@ -15065,7 +15065,7 @@ ${historyFight}`
                 //    await rem.sendText(numberReportError, err)
                }
                break
-        case prefix+'remeaster':
+        /** case prefix+'remeaster':
         case prefix+'easterevent':
         case prefix+'esinfo':
         case prefix+'easterinfo':
@@ -15260,7 +15260,7 @@ Kembali lagi setelah *5 menit* untuk berburu telur lainnya!`, id)
                 console.error(err);
                 reply(from, 'Terjadi kesalahan saat berburu telur Easter :(', id)
             }
-            break
+            break **/
         //
         // case prefix+'addsaudara':
         // case prefix+'addbro':
