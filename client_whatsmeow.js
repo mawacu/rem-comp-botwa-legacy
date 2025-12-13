@@ -523,6 +523,7 @@ const {
     //Nametag
     setNameTag,
     getNameTag,
+    getNameTagList,
     replaceNameTag,
     addNameTag_tag,
     //Achievements
@@ -555,6 +556,8 @@ const {
     MinPoint,
     getPoint,
     setPoint,
+    // CHRISTMAS EVENT
+
     //WARN
     addWarn,
     getWarn,
@@ -2954,10 +2957,9 @@ if(config.isDebug) console.log(`${Date.now() - dateNowProccessIs}ms - Loaded DB 
                 // const hitungMundur = timeConvert(1659787200000)
                 let centerAdditionalInfo = ``
 
-                // const timeConvertSeason17 = timeConvert(1756472400000)
-                // let bottomAdditionalInfo = `*!! Season 17 Countdown !!*\n${timeConvertSeason17.day} Hari | ${timeConvertSeason17.hour} Jam : ${timeConvertSeason17.minute} Menit : ${timeConvertSeason17.second} Detik`
+                const timeConvertSeason17 = timeConvert(1756472400000)
+                let bottomAdditionalInfo = `*!! Season 17 Countdown !!*\n${timeConvertSeason17.day} Hari | ${timeConvertSeason17.hour} Jam : ${timeConvertSeason17.minute} Menit : ${timeConvertSeason17.second} Detik`
                 // let bottomAdditionalInfo = '\n*「 Code Redeem 」*\n   _296EiDAdHa144H_\nExpired : 01/07/2023'
-                let bottomAdditionalInfo = ``
 
                 // await rem.sendButtonsTemplateImage(from, help(pushname, roleid, tierTag, levelny, prefix, _userDb.rl.pd, '', '', '', '', additionalInfo, centerAdditionalInfo, bottomAdditionalInfo), resultCanvasMenu, helpbuttons, '', '@dwirizqi.h', { filename: 'menu.png' })   
                 await rem.sendFile(from, resultCanvasMenu, 'help.png', help(pushname, roleid, (isSpyMenu ? '#####' : tierTag), (isSpyMenu ? '#####' : levelny), prefix, _userDb.rl.pd, '', '', '', '', additionalInfo, centerAdditionalInfo, bottomAdditionalInfo), '', image)
@@ -12059,7 +12061,7 @@ _${urlPathImageTempSetPdPp}_`
                 }
             }
             break
-        /** case prefix+'point':
+        case prefix+'point':
         case prefix+'p':
             // if (!isSideOwner) return reply(from, 'Err: 403!')
             if(args.length === 1) {
@@ -12140,7 +12142,7 @@ _${urlPathImageTempSetPdPp}_`
                     return reply(from, 'Invalid!', id)
                 }
             }
-            break **/
+            break
         // Kegunaan Afinitas Saudara
         case prefix+'pullmoney':
         case prefix+'pullm':
@@ -14813,7 +14815,7 @@ Fungsi : Guild Command List
                 })
 
                 let imagePathFloor = `./media/img/rpg/floor/${floorDbSl.image}`
-                if(!fs.existsSync(imagePathFloor)) imagePathFloor = './media/img/404_not_found.jpg'
+                if(!fs.existsSync(imagePathFloor)) imagePathFloor = './media/img/404_not_found.gif'
                 rem.sendFileAuto(from, imagePathFloor, '', lantaiText, messageRaw, { gifPlayback: true })
             }
             break
@@ -15066,7 +15068,7 @@ ${historyFight}`
                 //    await rem.sendText(numberReportError, err)
                }
                break
-        /** case prefix+'remeaster':
+        case prefix+'remeaster':
         case prefix+'easterevent':
         case prefix+'esinfo':
         case prefix+'easterinfo':
@@ -15261,7 +15263,7 @@ Kembali lagi setelah *5 menit* untuk berburu telur lainnya!`, id)
                 console.error(err);
                 reply(from, 'Terjadi kesalahan saat berburu telur Easter :(', id)
             }
-            break **/
+            break
         //
         // case prefix+'addsaudara':
         // case prefix+'addbro':
