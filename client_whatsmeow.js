@@ -2957,9 +2957,10 @@ if(config.isDebug) console.log(`${Date.now() - dateNowProccessIs}ms - Loaded DB 
                 // const hitungMundur = timeConvert(1659787200000)
                 let centerAdditionalInfo = ``
 
-                const timeConvertSeason17 = timeConvert(1756472400000)
-                let bottomAdditionalInfo = `*!! Season 17 Countdown !!*\n${timeConvertSeason17.day} Hari | ${timeConvertSeason17.hour} Jam : ${timeConvertSeason17.minute} Menit : ${timeConvertSeason17.second} Detik`
+                // const timeConvertSeason17 = timeConvert(1756472400000)
+                // let bottomAdditionalInfo = `*!! Season 17 Countdown !!*\n${timeConvertSeason17.day} Hari | ${timeConvertSeason17.hour} Jam : ${timeConvertSeason17.minute} Menit : ${timeConvertSeason17.second} Detik`
                 // let bottomAdditionalInfo = '\n*「 Code Redeem 」*\n   _296EiDAdHa144H_\nExpired : 01/07/2023'
+                let bottomAdditionalInfo = ``
 
                 // await rem.sendButtonsTemplateImage(from, help(pushname, roleid, tierTag, levelny, prefix, _userDb.rl.pd, '', '', '', '', additionalInfo, centerAdditionalInfo, bottomAdditionalInfo), resultCanvasMenu, helpbuttons, '', '@dwirizqi.h', { filename: 'menu.png' })   
                 await rem.sendFile(from, resultCanvasMenu, 'help.png', help(pushname, roleid, (isSpyMenu ? '#####' : tierTag), (isSpyMenu ? '#####' : levelny), prefix, _userDb.rl.pd, '', '', '', '', additionalInfo, centerAdditionalInfo, bottomAdditionalInfo), '', image)
