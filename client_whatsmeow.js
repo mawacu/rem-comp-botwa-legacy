@@ -23471,7 +23471,9 @@ Pengirim Saran : wa.me/${allArgs[1].replace('@s.whatsapp.net', '')}
                 if (!isSideOwner) return  reply(from, 'Perintah ini hanya untuk role SideOwner!', id)
                 if(args.length === 2) return reply(from, 'version empty!', id)
                 if(args[2] != 'beta' && args[2] != 'release') return reply(from, 'Invalid version!')
+                console.log('a')
                 await _mongo_UserSchema.updateOne({ iId: sender }, { $set: { "setUser.version": args[2].toLowerCase() } })
+                console.log('b')
                 reply(from, 'Sukses, mengubah version ke '+args[2].toLowerCase(), id)
             } else if(allArgs[1] == 'daerah') {
                 const getHeaderPHPSESSID = await axios.get('https://bimasislam.kemenag.go.id')
@@ -23548,6 +23550,7 @@ Pengirim Saran : wa.me/${allArgs[1].replace('@s.whatsapp.net', '')}
             break
         case prefix+'version':
             if (!isSideOwner) return  reply(from, 'Perintah ini hanya untuk role SideOwner!', id)
+            console.log('c')
             reply(from, `Current Version : ${_userDb.setUser.version || 'release'}\nPath Version : ${__filename}`)
             break
         

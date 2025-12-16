@@ -319,6 +319,7 @@ let allCase = undefined
 
 const dbAccess = require('./lib/dbtype')(false)
 module.exports = async (remRaw = undefined, reply = undefined, messageRaw = undefined, message = undefined, MessageType = undefined/*, browserMAL*/, browserSS, canvass = undefined, canvasRenderService1 = undefined, clientjs = '', isVirtualBot, virtualBotID, ytDlpWrap, cord = undefined, socket, groupMETA, ClientGenius) => {
+    console.log('d')
     if(message.sender == undefined) return
     if(config.isDebug) console.log(`----- START -----`)
     if(isVirtualBot && message.from == '120363043619573873@g.us') return
