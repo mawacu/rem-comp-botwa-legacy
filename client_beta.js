@@ -15507,7 +15507,7 @@ Kembali lagi setelah *5 menit* untuk berburu telur lainnya!`, id)
 //                     } else if(args.length == 3) {
 //                         if(!args[2].includes('@s.whatsapp.net')) return reply(from, 'Args[2] Harus berupa @s.whatsapp.net ID', id)
 //                         let token2 = args[2]
-//                         await _mongo_UserSchema.updateOne({ ild: token2 }, { $set: { "economy.evntChristmas.token": 0 } })
+//                         await _mongo_UserSchema.updateOne({ iId: token2 }, { $set: { "economy.evntChristmas.token": 0 } })
 //                         if(isMention) {
 //                             rem.sendTextWithMentions(from, `Success Reset Token Christmas @${token2.replace('@s.whatsapp.net','')}!`)
 //                         } else {
