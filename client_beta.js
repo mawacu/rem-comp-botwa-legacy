@@ -15304,7 +15304,7 @@ Temukan Gift Box JELEK atau RemComp Gift Box untuk hadiah super spesial!
 Jika kamu ingin menguji keberuntunganmu, cobalah perintah *${prefix}xgbox*
 
 🛍 *Daily Shop*
-Daily Shop ini berubah setiap harinya dan diisi dengan hadiah-hadiah yang kamu bisa beli menggunakan *${prefix}token*. Perintah untuk melihat Daily Shop nya *${prefix}christmasshop*
+Daily Shop ini berubah setiap harinya dan diisi dengan hadiah-hadiah yang kamu bisa beli menggunakan *${prefix}xtoken*. Perintah untuk melihat Daily Shop nya *${prefix}christmasshop*
 
 🏆 *Gift Box Leaderboard*
 Lihat siapa yang mempunyai token terbanyak dengan perintah *${prefix}christmaslb* atau bisa menggunakan shortcut *${prefix}xlb* untuk melihat leaderboard!
@@ -15343,7 +15343,7 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                         lbDisplay += `${medal} wa.me/${userId}\n🪙 Token Spent: ${spent}\n\n`
                     })
                     
-                    lbDisplay += `*Update setiap hari*\n*© RemComp 2025*`
+                    lbDisplay += `*© RemComp 2025*`
                     return reply(from, lbDisplay, id)
                 } catch (err) {
                     console.error(err)
@@ -15369,7 +15369,7 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                         }
                         shopDisplay += `\nKetik *${prefix}xshop [nomor] [jumlah]* untuk membeli\n`
                         shopDisplay += `Contoh: *${prefix}xshop 1 2* (membeli item 1 sebanyak 2)\n\n`
-                        shopDisplay += `⏱️ Shop akan tereset dalam 24 jam!\n*© RemComp 2025*`
+                        shopDisplay += `⏱️ Shop akan tereset dalam 24 jam!\n────────────────\n*© RemComp 2025*`
                         return reply(from, shopDisplay, id)
                     } else if(args.length >= 2) {
                         const itemIndex = parseInt(args[1]) - 1
@@ -15383,6 +15383,15 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                         const itemId = itemKeys[itemIndex]
                         const item = shop.items[itemId]
                         const totalPrice = item.price * quantity
+                        
+                        if(itemId.includes('nametag')) {
+                            const currentNameTagList = getNameTagList(_userDb) || []
+                            const shopNameTag = item.name.replace('✨ Custom NameTag: ', '')
+                            
+                            if(currentNameTagList.includes(shopNameTag)) {
+                                return reply(from, `❌ Kamu sudah memiliki NameTag "*${shopNameTag}*"!\nTidak bisa membeli NameTag yang sama dua kali.`, id)
+                            }
+                        }
                         
                         const userToken = getToken(_userDb)
                         if(userToken < totalPrice) {
@@ -15622,6 +15631,7 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
 • Rare (5%): Token, Fragment, Money, XP, Limit
 • Uncommon (20%): Token, Fragment, Money, XP, Limit
 • Common (75%): Money, XP, Limit
+
 Ketik *${prefix}xgbox [tipe] [jumlah] [currency]* untuk gacha
 Contoh: *${prefix}xgbox premium 2 money* (gacha pakai money)
 Atau: *${prefix}xgbox premium 2 frag* (gacha pakai fragment)
