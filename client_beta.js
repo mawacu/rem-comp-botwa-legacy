@@ -1093,6 +1093,21 @@ if(_userDb.item?.jobBoost?.time != 0 && Date.now() >= _userDb.item?.jobBoost?.ti
     _userDb.item.jobBoost = { xp: 0, time: 0 }
 }
 
+if(!_userDb.economy?.evntChristmas) {
+    await _mongo_UserSchema.updateOne({ iId: sender }, { $set: {
+        "economy.evntChristmas": {
+            token: 0,
+            frag: 0,
+            spentToken: 0
+        }
+    }})
+    _userDb.economy.evntChristmas = {
+        token: 0,
+        frag: 0,
+        spentToken: 0
+    }
+}
+
 if(!_userDb.rl?.afinitas) {
     await _mongo_UserSchema.updateOne({ iId: sender }, { $set: { 
         "rl.afinitas": {
@@ -2914,35 +2929,6 @@ if(config.isDebug) console.log(`${Date.now() - dateNowProccessIs}ms - Loaded DB 
         // if(isCmd && getLevelingId(sender) == undefined) await addLevelingId(sender)
         //if(isCmd && iscmdabai && limidcmd) return reply(from, 'Anda telah _dibanned_\n*Karena menggunakan command yang tidak terdaftar*\nUntuk unban Join group dan minta unban ke owner\n'+inviteLinkForum, id)
         if(config.isDebug) console.log(`${Date.now() - dateNowProccessIs}ms - Process Command ${prefix+command}`)
-        
-        // Initialize Christmas Event
-        const christmasCommands = ['christmas', 'xmas', 'christmaslb', 'xmaslb', 'xlb', 'christmasshop', 'xmashop', 'xshop', 'christmastoken', 'xmastoken', 'xtoken', 'christmasfrag', 'xmasfrag', 'xfrag', 'christmasgiftbox', 'xmasgiftbox', 'xgbox', 'eventchristmasgiftboxhunt2025santaclaushappychristmas', 'xmasgiftboxhunt', 'xgboxhunt', 'xh', 'exchangechristmasfrag', 'exchangexmasfrag', 'exchangexfrag', 'exfrag']
-        
-        if(christmasCommands.includes(command)) {
-            try {
-                await _mongo_UserSchema.updateOne(
-                    { iId: sender },
-                    {
-                        $setOnInsert: {
-                            "economy.evntChristmas": { token: 0, frag: 0, spentToken: 0 }
-                        }
-                    },
-                    { upsert: false }
-                )
-            
-                const userDbCheck = await _mongo_UserSchema.findOne({ iId: sender })
-                if(!userDbCheck.economy?.evntChristmas) {
-                    await _mongo_UserSchema.updateOne(
-                        { iId: sender },
-                        { $set: { "economy.evntChristmas": { token: 0, frag: 0, spentToken: 0 } } }
-                    )
-                }
-                if(getToken(userDbCheck) === undefined) await setToken(sender)
-                if(getFrag(userDbCheck) === undefined) await setFrag(sender)
-            } catch (err) {
-                console.error('Error initializing Christmas Event:', err)
-            }
-        }
         
         switch(command) {
             case prefix+'help':
@@ -15324,20 +15310,6 @@ Kembali lagi setelah *5 menit* untuk berburu telur lainnya!`, id)
                 // const getInfoChristmasPng = await import('./lib/database/christmasPng/infoChristmasEvent.png')
                 // const infoPath = path.resolve(getInfoChristmasPng)
                 // const bufferInfoChristmasPng = fs.readFileSync(infoPath)
-
-                const checkToken = getToken(_userDb)
-                const checkFrag = getFrag(_userDb)
-                const checkSpentToken = getSpentToken(_userDb)
-
-                if (checkToken === undefined) {
-                    await setToken(sender)
-                } else if (checkFrag === undefined) {
-                    await setFrag(sender)
-                } else if (checkSpentToken === undefined) {
-                    await setSpentToken(sender)
-                }
-
-
 
                 const christmasEventInfo = `🎁 *CHRISTMAS EVENT 2025* 🎁\n
 Selamat datang di event spesial Christmas 2025!
