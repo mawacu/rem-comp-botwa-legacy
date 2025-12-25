@@ -15691,15 +15691,15 @@ Currency: money / frag (default: money)
                     let moneyPerBox, fragPerBox
                     
                     if(boxType === 'premium') {
-                        moneyPerBox = 1e+150
+                        moneyPerBox = 1e+250
                         fragPerBox = 150
                         boxName = '💎 Premium Box'
                     } else if(boxType === 'standard') {
-                        moneyPerBox = 1e+100
+                        moneyPerBox = 1e+150
                         fragPerBox = 80
                         boxName = '⭐ Standard Box'
                     } else if(boxType === 'lucky') {
-                        moneyPerBox = 1e+50
+                        moneyPerBox = 1e+100
                         fragPerBox = 50
                         boxName = '🎪 Lucky Box'
                     } else {
