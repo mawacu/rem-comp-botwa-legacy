@@ -1096,15 +1096,15 @@ if(_userDb.item?.jobBoost?.time != 0 && Date.now() >= _userDb.item?.jobBoost?.ti
 if(!_userDb.economy?.evntChristmas) {
     await _mongo_UserSchema.updateOne({ iId: sender }, { $set: {
         "economy.evntChristmas": {
-            token: 0,
-            frag: 0,
-            spentToken: 0
+            token: 1,
+            frag: 1,
+            spentToken: 1
         }
     }})
     _userDb.economy.evntChristmas = {
-        token: 0,
-        frag: 0,
-        spentToken: 0
+        token: 1,
+        frag: 1,
+        spentToken: 1
     }
 }
 
