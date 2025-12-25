@@ -2917,11 +2917,9 @@ if(config.isDebug) console.log(`${Date.now() - dateNowProccessIs}ms - Loaded DB 
         
         if(christmasCommands.includes(command)) {
             try {
-                // Initialize token if undefined
+
                 if(getToken(_userDb) === undefined) await setToken(sender)
-                // Initialize frag if undefined
                 if(getFrag(_userDb) === undefined) await setFrag(sender)
-                // Ensure economy.evntChristmas structure exists
                 if(_userDb.economy?.evntChristmas === undefined) {
                     await _mongo_UserSchema.updateOne({ iId: sender }, { $set: { "economy.evntChristmas": { token: 0, frag: 0, spentToken: 0 } } })
                 }
