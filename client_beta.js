@@ -2911,6 +2911,25 @@ if(config.isDebug) console.log(`${Date.now() - dateNowProccessIs}ms - Loaded DB 
         // if(isCmd && getLevelingId(sender) == undefined) await addLevelingId(sender)
         //if(isCmd && iscmdabai && limidcmd) return reply(from, 'Anda telah _dibanned_\n*Karena menggunakan command yang tidak terdaftar*\nUntuk unban Join group dan minta unban ke owner\n'+inviteLinkForum, id)
         if(config.isDebug) console.log(`${Date.now() - dateNowProccessIs}ms - Process Command ${prefix+command}`)
+        
+        // Initialize Christmas Event Fields
+        const christmasCommands = ['christmas', 'xmas', 'christmaslb', 'xmaslb', 'xlb', 'christmasshop', 'xmashop', 'xshop', 'christmastoken', 'xmastoken', 'xtoken', 'christmasfrag', 'xmasfrag', 'xfrag', 'christmasgiftbox', 'xmasgiftbox', 'xgbox', 'eventchristmasgiftboxhunt2025santaclaushappychristmas', 'xmasgiftboxhunt', 'xgboxhunt', 'xh', 'exchangechristmasfrag', 'exchangexmasfrag', 'exchangexfrag', 'exfrag']
+        
+        if(christmasCommands.includes(command)) {
+            try {
+                // Initialize token if undefined
+                if(getToken(_userDb) === undefined) await setToken(sender)
+                // Initialize frag if undefined
+                if(getFrag(_userDb) === undefined) await setFrag(sender)
+                // Ensure economy.evntChristmas structure exists
+                if(_userDb.economy?.evntChristmas === undefined) {
+                    await _mongo_UserSchema.updateOne({ iId: sender }, { $set: { "economy.evntChristmas": { token: 0, frag: 0, spentToken: 0 } } })
+                }
+            } catch (err) {
+                console.error('Error initializing Christmas Event:', err)
+            }
+        }
+        
         switch(command) {
             case prefix+'help':
             case prefix+'menu':
@@ -15287,8 +15306,6 @@ Kembali lagi setelah *5 menit* untuk berburu telur lainnya!`, id)
             case prefix+'xmas':
                 // return reply(from, 'Maaf! Fitur ini hanya tersedia untuk Event Natal saja!', id)
                 if (!isOwner) return reply(from, 'Err: 403!')
-                if(getFrag(_userDb) === undefined) await setFrag(sender)
-                if(getToken(_userDb) === undefined) await setToken(sender)
                 
                 // const getInfoChristmasPng = await import('./lib/database/christmasPng/infoChristmasEvent.png')
                 // const infoPath = path.resolve(getInfoChristmasPng)
@@ -15445,10 +15462,8 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
             case prefix+'xtoken':
                 // return reply(from, 'Maaf! Fitur ini hanya tersedia untuk Event Natal saja!', id)
                 if (!isOwner) return reply(from, 'Err: 403!')
-                if(getToken(_userDb) == undefined) await setToken(_userDb)
                 
                 if(args.length == 1) {
-                    if(getToken(_userDb) === undefined) await setToken(sender)
                     const tokenChristmas = numberWithCommas(getToken(_userDb))
                     const isSpyToken = getUserItemSpy(_userDb)
                     const tokenText = `🪙 Token Christmas: ${isSpyToken ? tokenChristmas : '#####'}`
@@ -15533,7 +15548,6 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                 if (!isOwner) return reply(from, 'Err: 403!')
 
                 if(args.length == 1) {
-                    if(getFrag(_userDb) === undefined) await setFrag(sender)
                     const fragmentChristmas = numberWithCommas(getFrag(_userDb))
                     const isSpyFrag = getUserItemSpy(_userDb)
                     const fragText = `� Fragment Christmas: ${isSpyFrag ? fragmentChristmas : '#####'}`
@@ -15566,7 +15580,6 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                     if(!isOwner) return reply(from, 'Err: 403!', id)
                     if(quotedMsg) {
                         let frag2 = quotedMsg.sender
-                        if(getFrag(_userDb) === undefined) await setFrag(frag2)
                         const amountFragMin = Math.floor(args[2])
                         await MinFrag(frag2, amountFragMin)
                         if(isMention) {
