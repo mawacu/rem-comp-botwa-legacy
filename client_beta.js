@@ -2917,12 +2917,27 @@ if(config.isDebug) console.log(`${Date.now() - dateNowProccessIs}ms - Loaded DB 
         
         if(christmasCommands.includes(command)) {
             try {
-
-                if(getToken(_userDb) === undefined) await setToken(sender)
-                if(getFrag(_userDb) === undefined) await setFrag(sender)
-                if(_userDb.economy?.evntChristmas === undefined) {
-                    await _mongo_UserSchema.updateOne({ iId: sender }, { $set: { "economy.evntChristmas": { token: 0, frag: 0, spentToken: 0 } } })
+                // Initialize complete Christmas Event structure in database
+                await _mongo_UserSchema.updateOne(
+                    { iId: sender },
+                    {
+                        $setOnInsert: {
+                            "economy.evntChristmas": { token: 0, frag: 0, spentToken: 0 }
+                        }
+                    },
+                    { upsert: false }
+                )
+                
+                // Also ensure fields exist using $set if undefined
+                const userDbCheck = await _mongo_UserSchema.findOne({ iId: sender })
+                if(!userDbCheck.economy?.evntChristmas) {
+                    await _mongo_UserSchema.updateOne(
+                        { iId: sender },
+                        { $set: { "economy.evntChristmas": { token: 0, frag: 0, spentToken: 0 } } }
+                    )
                 }
+                if(getToken(userDbCheck) === undefined) await setToken(sender)
+                if(getFrag(userDbCheck) === undefined) await setFrag(sender)
             } catch (err) {
                 console.error('Error initializing Christmas Event:', err)
             }
