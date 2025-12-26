@@ -15437,10 +15437,6 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                             const shortOf = numberWithCommas(fixNumberE(totalPrice - userToken))
                             return reply(from, `❌ Token kamu tidak cukup!\nButuh: ${numberWithCommas(fixNumberE(totalPrice))}\nKekurangan: ${shortOf}`, id)
                         }
-
-                        if(item === undefined) {
-                            return reply(from, 'Format Salah')
-                        }
                         
                         const purchaseResult = await buyChristmasShopItem(itemId, quantity)
                         console.log('a')
@@ -15469,6 +15465,8 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                         
                         const purchaseMsg = `✅ *PEMBELIAN BERHASIL* ✅\n\nKamu membeli:\n${item.name} x${quantity}\n\n💰 Harga: ${numberWithCommas(fixNumberE(totalPrice))}\n\nTerimakasih telah berbelanja di Christmas Shop!\n*© RemComp 2025*`
                         return reply(from, purchaseMsg, id)
+                    } else {
+                        return reply(from, 'Format Salah')
                     }
                 } catch (err) {
                     console.error(err)
