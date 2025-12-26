@@ -15458,6 +15458,8 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                         } else if(itemId.includes('xp')) {
                             const xpAmount = parseInt(itemId.split('_')[1]) * quantity
                             await addLevelingXp(sender, xpAmount)
+                        } else {
+                            return reply(from, 'Format Salah')
                         }
                         console.log('a')
                         
@@ -15465,8 +15467,6 @@ Selamat bersenang-senang mencari semua Gift Box yang tersembunyi dan Selamat Nat
                         
                         const purchaseMsg = `✅ *PEMBELIAN BERHASIL* ✅\n\nKamu membeli:\n${item.name} x${quantity}\n\n💰 Harga: ${numberWithCommas(fixNumberE(totalPrice))}\n\nTerimakasih telah berbelanja di Christmas Shop!\n*© RemComp 2025*`
                         return reply(from, purchaseMsg, id)
-                    } else {
-                        return reply(from, 'Format Salah')
                     }
                 } catch (err) {
                     console.error(err)
