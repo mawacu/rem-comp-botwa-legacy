@@ -15892,7 +15892,7 @@ Kembali untuk gacha lagi! 🎉
 Selamat! Kamu menemukan Gift Box di lokasi *${location}*!
 
 💰 Hadiah:
-💰 Money: +${money}
+💰 Money: +${numberWithCommas(fixNumberE(money))}
 🪙 Token: +${token}
 🧩 Fragment: +${frag}
 📈 XP Level: +${xpLevel}
