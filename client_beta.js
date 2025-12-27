@@ -15901,7 +15901,7 @@ Kembali lagi setelah *5 menit* untuk berburu Gift Box lainnya!
 
 *© RemComp 2025*`
                         
-                        await rem.sendText(from, textGiftBoxHunt, id)
+                        return reply(from, textGiftBoxHunt)
                     } else {
                         console.log('s')
                         // not found
